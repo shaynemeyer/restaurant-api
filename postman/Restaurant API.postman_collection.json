@@ -2,7 +2,7 @@
 	"variables": [],
 	"info": {
 		"name": "Restaurant API",
-		"_postman_id": "b9323027-f881-93d2-fcc0-e02a59a5539c",
+		"_postman_id": "8d44ebea-480b-afd8-79ab-8a7d3082b778",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -70,6 +70,27 @@
 				"body": {
 					"mode": "raw",
 					"raw": "{\n\t\"name\": \"Gillians BBQ\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Restaurant",
+			"request": {
+				"url": "http://localhost:3005/v1/restaurant/5843775b596aa73eb346fdfd",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "//Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
 				},
 				"description": ""
 			},
